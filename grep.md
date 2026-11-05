@@ -1,6 +1,6 @@
 # GREP - Global Regular Expression Print
 
-** grep ** is command line utility to search text or file using regular expression(pattern). It results the matching lines.
+**grep** is command line utility to search text using regular expression(pattern). It ouputs the original lines showing the matches.
 
 A utility is a small and specialized program to perform a specific task related to managing, maintaining, or optimizing the operation system.
 
