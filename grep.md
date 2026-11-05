@@ -1,4 +1,4 @@
-# GREP - Gloablal Regular Expression Print
+# GREP - Global Regular Expression Print
 
 ** grep ** is command line utility to search text or file using regular expression(pattern). It results the matching lines.
 
