@@ -78,4 +78,4 @@ grep -E "[A-Z][a-z]*" sample.txt
 Selects words starting with a capital letter and following with zero or more small letters.
 
 ##### Ouputs image
-![Outputs image](image.png)
+![Outputs image](img/grep1.png)
