@@ -104,6 +104,21 @@ print(web_series[::-1])
 
 ### What is "\_\_str__"?
 When we print an object directly. It prints the class name of the object and it's memory reference. Using \_\_str__ we can override this functionality. Creating our own print for the objects.
+```python
+class Student:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def __str__(self):
+    return f"Name: {self.name}, Age: {self.age}"
+  
+student1 = Student("Mohan", 17)
+print(student1)
+
+# Output:
+# Name: Mohan, Age: 17
+```
 
 ### When we use for and while
 * When we know the starting value of the loop variable and number of iterations needed. It is better to use for loop.
